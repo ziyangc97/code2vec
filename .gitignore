@@ -5,3 +5,5 @@
 **/.idea/**
 *.tar.gz
 **/log.txt
+.DS_Store
+__pycache__

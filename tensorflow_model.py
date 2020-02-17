@@ -69,6 +69,9 @@ class Code2VecModel(Code2VecModelBase):
 
         self.sess.run(input_iterator_reset_op)
         time.sleep(1)
+
+        self.log(self.config.csv_path)
+        
         self.log('Started reader...')
         # run evaluation in a loop until iterator is exhausted.
         try:
